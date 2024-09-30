@@ -41,6 +41,14 @@ h1 {
     text-align: center;
     padding: 15px;
     transition: box-shadow 0.5s;
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+}
+.grid-item:hover{
+    width: 36%;
+
 }
 
 .grid-item img {
