@@ -45,3 +45,35 @@ button:hover{
 input:focus {
   outline-color: blue;
   }
+
+  .nav {
+    background-color:  #eaeaea;
+    overflow: hidden;
+}
+.nav a{
+    text-decoration: none;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.nav a:hover {
+    background-color: #d1d1d1;
+    border-radius: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 1px);
+}
+.nav a.active {
+    background-color:  #d1d1d1;
+    border-radius: 20px;
+}
+
+header {
+  background-color:  #eaeaea;
+  padding: 10px;
+  text-align: center;
+  font-size: 2.2em;
+  font-family: Arial, sans-serif; 
+  color: #2d2828;
+}
